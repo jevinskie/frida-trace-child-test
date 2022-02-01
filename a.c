@@ -7,7 +7,7 @@ int hookme(void) {
 
 int main(void) {
 	fprintf(stderr, "a start\n");
-	fgetc(stdin);
+	// fgetc(stdin);
 	system("./b");
 	fprintf(stderr, "a hookme(): %d\n", hookme());
 	fprintf(stderr, "a finish\n");
